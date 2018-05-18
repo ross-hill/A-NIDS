@@ -8,6 +8,8 @@ There are three python files in this repo:
   2. data.py
   3. Autoencoder.py
   
+All code is released under the Apache 2.0 licence listed in the root directory of the repository.
+  
  ## model.py
  This file contains the model, that combines an Isolation Forest, Random Forest and Autoencoder Neural Networks. The file should run from the command line, as it prompts the user to enter the locations of any files and any constants such as random seeds etc. It contains a section on the KDD data, in which the data is processed and a random forest is fitted. The other parts do not require any specific formatted data.
  
